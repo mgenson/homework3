@@ -36,8 +36,8 @@ caption{
 }
 
 p{
-  font-family: "andika", sans-serif;
   color: black;
+  font-family: "andika", sans-serif;
   font-size: 16px;
   padding-top: 10px;
 
@@ -61,7 +61,6 @@ table, th, td{
     table-layout: fixed;
     width: auto;
     text-align: center;
-    padding: 15px;
     border-top: 2px solid black;
     padding: 0px;
 
@@ -86,10 +85,11 @@ tbody tr:last-child td:last-child{
   border-radius: 0px 0px 15px 0px;
 }
 tr:nth-child(odd){
+  color: black;
   background-color: #D1D1D1;
 }
 tr:nth-child(even){
-  opacity: 0.5;
+  color: black;
 }
 .colhead{
   background-color: #7e0820;
@@ -105,8 +105,8 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: red;
-  opacity: 0.5;
+  background: rgba(126,8,32, 0.5);
+
 }
 
 td{
